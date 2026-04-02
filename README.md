@@ -12,7 +12,9 @@
 
 # Complete Guide: Master Claude Code Setup
 
-a base template repository for configuring CLAUDE in your code projects (focusing on .NET here)
+
+A base template repository for configuring CLAUDE in your code projects (focusing on .NET here)
+
 ---
 
 ## 1. 📁 `.claude/agents/` → AI Teammates That Do Specialized Work
