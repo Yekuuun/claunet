@@ -1,7 +1,18 @@
+```C#
+                 _______  ___      _______  __   __  __    _  _______  _______ 
+                |       ||   |    |   _   ||  | |  ||  |  | ||       ||       |
+                |       ||   |    |  |_|  ||  | |  ||   |_| ||    ___||_     _|
+                |       ||   |    |       ||  |_|  ||       ||   |___   |   |  
+                |      _||   |___ |       ||       ||  _    ||    ___|  |   |  
+                |     |_ |       ||   _   ||       || | |   ||   |___   |   |  
+                |_______||_______||__| |__||_______||_|  |__||_______|  |___|
+
+                      -------Setup CLAUDE in your .NET project-------
+```
+
 # Complete Guide: Master Claude Code Setup
 
-This repo contains a base struct on how to setup Claude properly in your next .NET code project
-
+a base template repository for configuring CLAUDE in your code projects (focusing on .NET here)
 ---
 
 ## 1. 📁 `.claude/agents/` → AI Teammates That Do Specialized Work
