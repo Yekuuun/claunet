@@ -1,0 +1,13 @@
+//feel free to configure it your way
+
+{
+  "permissions": {
+    "deny": [
+      "Read(**/.env*)",
+      "Read(**/*.pem)",
+      "Read(**/*.key)",
+      "Read(**/secrets/**)",
+      "Write(**/config/production/**)"
+    ]
+  }
+}
