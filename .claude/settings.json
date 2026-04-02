@@ -9,5 +9,27 @@
       "Read(**/secrets/**)",
       "Write(**/config/production/**)"
     ]
+  },
+    "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ~/.claude/scripts/validate-bash-dotnet.sh"
+          }
+        ]
+      },
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ~/.claude/scripts/run-tests-on-change.sh"
+          }
+        ]
+      }
+    ]
   }
 }
