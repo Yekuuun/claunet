@@ -348,13 +348,3 @@ my-project/
 ```
 
 ---
-
-## Next Steps
-
-1. Start with Phase 1 (foundation)
-2. Add your most-used commands first
-3. Enrich CLAUDE.md over time
-4. Move to hooks once you see patterns
-5. Build agents when you need specialization
-
-Good luck! 🎯
